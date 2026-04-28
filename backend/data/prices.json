@@ -2,56 +2,119 @@
   "Tomato": {
     "Nashik": {
       "state": "Maharashtra",
-      "prices": [18, 20, 22, 19, 26, 24, 21],
+      "prices": [
+        18,
+        20,
+        22,
+        19,
+        26,
+        24,
+        21
+      ],
       "trend": "rising",
       "best_day": "Tuesday",
       "risk": "oversupply expected mid-week"
     },
     "Lucknow": {
       "state": "Uttar Pradesh",
-      "prices": [14, 15, 16, 18, 20, 19, 17],
+      "prices": [
+        14,
+        15,
+        16,
+        18,
+        20,
+        19,
+        17
+      ],
       "trend": "stable",
       "best_day": "Wednesday",
       "risk": "stable demand, low risk"
     },
     "Pune": {
       "state": "Maharashtra",
-      "prices": [20, 22, 25, 23, 28, 26, 24],
-      "trend": "rising",
-      "best_day": "Monday",
-      "risk": "rain forecast may affect transport"
+      "prices": [
+        15.0,
+        9.0,
+        17.0
+      ],
+      "min_price": 9.0,
+      "max_price": 17.0,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 3
     },
     "Kanpur": {
       "state": "Uttar Pradesh",
-      "prices": [13, 14, 15, 16, 18, 17, 15],
+      "prices": [
+        13,
+        14,
+        15,
+        16,
+        18,
+        17,
+        15
+      ],
       "trend": "stable",
       "best_day": "Thursday",
       "risk": "stable demand"
     },
     "Nagpur": {
       "state": "Maharashtra",
-      "prices": [17, 19, 21, 20, 24, 22, 20],
-      "trend": "rising",
-      "best_day": "Friday",
-      "risk": "high competition from nearby farms"
+      "prices": [
+        20.25,
+        13.05,
+        17.6,
+        17.5
+      ],
+      "min_price": 13.05,
+      "max_price": 20.25,
+      "trend": "stable",
+      "best_day": "Saturday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 4
     },
     "Agra": {
       "state": "Uttar Pradesh",
-      "prices": [12, 13, 14, 15, 17, 16, 14],
+      "prices": [
+        6.5
+      ],
+      "min_price": 6.5,
+      "max_price": 6.5,
       "trend": "stable",
-      "best_day": "Wednesday",
-      "risk": "low demand season"
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Solapur": {
       "state": "Maharashtra",
-      "prices": [16, 18, 20, 19, 22, 21, 19],
+      "prices": [
+        16,
+        18,
+        20,
+        19,
+        22,
+        21,
+        19
+      ],
       "trend": "rising",
       "best_day": "Saturday",
       "risk": "transport cost may reduce margins"
     },
     "Allahabad": {
       "state": "Uttar Pradesh",
-      "prices": [13, 14, 16, 15, 18, 17, 15],
+      "prices": [
+        13,
+        14,
+        16,
+        15,
+        18,
+        17,
+        15
+      ],
       "trend": "stable",
       "best_day": "Friday",
       "risk": "moderate demand"
@@ -60,56 +123,111 @@
   "Onion": {
     "Nashik": {
       "state": "Maharashtra",
-      "prices": [22, 24, 27, 25, 30, 28, 26],
-      "trend": "rising",
-      "best_day": "Monday",
-      "risk": "export demand fluctuating"
+      "prices": [
+        7.75
+      ],
+      "min_price": 7.75,
+      "max_price": 7.75,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Lucknow": {
       "state": "Uttar Pradesh",
-      "prices": [18, 19, 20, 22, 24, 23, 21],
+      "prices": [
+        18,
+        19,
+        20,
+        22,
+        24,
+        23,
+        21
+      ],
       "trend": "rising",
       "best_day": "Tuesday",
       "risk": "stable urban demand"
     },
     "Pune": {
       "state": "Maharashtra",
-      "prices": [20, 22, 24, 23, 26, 25, 23],
+      "prices": [
+        7.5,
+        7.5
+      ],
+      "min_price": 7.5,
+      "max_price": 7.5,
       "trend": "stable",
-      "best_day": "Wednesday",
-      "risk": "good storage conditions"
+      "best_day": "Monday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 2
     },
     "Kanpur": {
       "state": "Uttar Pradesh",
-      "prices": [16, 17, 18, 20, 22, 21, 19],
-      "trend": "rising",
-      "best_day": "Thursday",
-      "risk": "increased supply from Punjab"
+      "prices": [
+        10.0
+      ],
+      "min_price": 10.0,
+      "max_price": 10.0,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Nagpur": {
       "state": "Maharashtra",
-      "prices": [19, 21, 23, 22, 25, 24, 22],
+      "prices": [
+        22.9
+      ],
+      "min_price": 22.9,
+      "max_price": 22.9,
       "trend": "stable",
-      "best_day": "Friday",
-      "risk": "moderate risk"
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Agra": {
       "state": "Uttar Pradesh",
-      "prices": [15, 16, 17, 19, 21, 20, 18],
-      "trend": "rising",
-      "best_day": "Monday",
-      "risk": "demand steady from cold storage buyers"
+      "prices": [
+        8.5
+      ],
+      "min_price": 8.5,
+      "max_price": 8.5,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Solapur": {
       "state": "Maharashtra",
-      "prices": [21, 23, 25, 24, 27, 26, 24],
+      "prices": [
+        21,
+        23,
+        25,
+        24,
+        27,
+        26,
+        24
+      ],
       "trend": "rising",
       "best_day": "Tuesday",
       "risk": "rain may delay arrivals"
     },
     "Allahabad": {
       "state": "Uttar Pradesh",
-      "prices": [16, 17, 19, 18, 21, 20, 18],
+      "prices": [
+        16,
+        17,
+        19,
+        18,
+        21,
+        20,
+        18
+      ],
       "trend": "stable",
       "best_day": "Wednesday",
       "risk": "low volatility"
@@ -118,56 +236,115 @@
   "Potato": {
     "Nashik": {
       "state": "Maharashtra",
-      "prices": [14, 15, 16, 15, 18, 17, 16],
+      "prices": [
+        14,
+        15,
+        16,
+        15,
+        18,
+        17,
+        16
+      ],
       "trend": "stable",
       "best_day": "Monday",
       "risk": "cold storage arrivals may suppress prices"
     },
     "Lucknow": {
       "state": "Uttar Pradesh",
-      "prices": [10, 11, 12, 13, 15, 14, 12],
+      "prices": [
+        10,
+        11,
+        12,
+        13,
+        15,
+        14,
+        12
+      ],
       "trend": "rising",
       "best_day": "Tuesday",
       "risk": "good demand from processing industry"
     },
     "Pune": {
       "state": "Maharashtra",
-      "prices": [15, 16, 17, 16, 19, 18, 17],
+      "prices": [
+        11.0
+      ],
+      "min_price": 11.0,
+      "max_price": 11.0,
       "trend": "stable",
-      "best_day": "Wednesday",
-      "risk": "urban demand consistent"
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Kanpur": {
       "state": "Uttar Pradesh",
-      "prices": [9, 10, 11, 12, 14, 13, 11],
+      "prices": [
+        9,
+        10,
+        11,
+        12,
+        14,
+        13,
+        11
+      ],
       "trend": "rising",
       "best_day": "Thursday",
       "risk": "oversupply from UP farms"
     },
     "Nagpur": {
       "state": "Maharashtra",
-      "prices": [13, 14, 15, 14, 17, 16, 15],
+      "prices": [
+        17.7,
+        9.5
+      ],
+      "min_price": 9.5,
+      "max_price": 17.7,
       "trend": "stable",
-      "best_day": "Friday",
-      "risk": "stable demand"
+      "best_day": "Monday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 2
     },
     "Agra": {
       "state": "Uttar Pradesh",
-      "prices": [8, 9, 10, 11, 13, 12, 10],
-      "trend": "rising",
-      "best_day": "Saturday",
-      "risk": "chip manufacturers buying aggressively"
+      "prices": [
+        5.5
+      ],
+      "min_price": 5.5,
+      "max_price": 5.5,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Solapur": {
       "state": "Maharashtra",
-      "prices": [12, 13, 14, 13, 16, 15, 14],
+      "prices": [
+        12,
+        13,
+        14,
+        13,
+        16,
+        15,
+        14
+      ],
       "trend": "stable",
       "best_day": "Monday",
       "risk": "low risk week"
     },
     "Allahabad": {
       "state": "Uttar Pradesh",
-      "prices": [9, 10, 11, 12, 14, 13, 11],
+      "prices": [
+        9,
+        10,
+        11,
+        12,
+        14,
+        13,
+        11
+      ],
       "trend": "rising",
       "best_day": "Tuesday",
       "risk": "moderate demand"
@@ -176,56 +353,118 @@
   "Brinjal": {
     "Nashik": {
       "state": "Maharashtra",
-      "prices": [16, 18, 20, 19, 22, 21, 19],
+      "prices": [
+        16,
+        18,
+        20,
+        19,
+        22,
+        21,
+        19
+      ],
       "trend": "rising",
       "best_day": "Monday",
       "risk": "good demand from city markets"
     },
     "Lucknow": {
       "state": "Uttar Pradesh",
-      "prices": [12, 13, 15, 14, 17, 16, 14],
+      "prices": [
+        12,
+        13,
+        15,
+        14,
+        17,
+        16,
+        14
+      ],
       "trend": "stable",
       "best_day": "Wednesday",
       "risk": "steady local demand"
     },
     "Pune": {
       "state": "Maharashtra",
-      "prices": [18, 20, 22, 21, 24, 23, 21],
-      "trend": "rising",
+      "prices": [
+        22.5
+      ],
+      "min_price": 22.5,
+      "max_price": 22.5,
+      "trend": "stable",
       "best_day": "Tuesday",
-      "risk": "festive demand boost expected"
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Kanpur": {
       "state": "Uttar Pradesh",
-      "prices": [11, 12, 13, 14, 16, 15, 13],
+      "prices": [
+        11,
+        12,
+        13,
+        14,
+        16,
+        15,
+        13
+      ],
       "trend": "stable",
       "best_day": "Thursday",
       "risk": "low volatility"
     },
     "Nagpur": {
       "state": "Maharashtra",
-      "prices": [15, 17, 19, 18, 21, 20, 18],
-      "trend": "rising",
-      "best_day": "Friday",
-      "risk": "competition from Vidarbha region"
+      "prices": [
+        6.4,
+        6.0,
+        12.7
+      ],
+      "min_price": 6.0,
+      "max_price": 12.7,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 3
     },
     "Agra": {
       "state": "Uttar Pradesh",
-      "prices": [10, 11, 12, 13, 15, 14, 12],
+      "prices": [
+        10,
+        11,
+        12,
+        13,
+        15,
+        14,
+        12
+      ],
       "trend": "stable",
       "best_day": "Monday",
       "risk": "average demand"
     },
     "Solapur": {
       "state": "Maharashtra",
-      "prices": [14, 16, 18, 17, 20, 19, 17],
+      "prices": [
+        14,
+        16,
+        18,
+        17,
+        20,
+        19,
+        17
+      ],
       "trend": "rising",
       "best_day": "Saturday",
       "risk": "moderate risk"
     },
     "Allahabad": {
       "state": "Uttar Pradesh",
-      "prices": [11, 12, 14, 13, 16, 15, 13],
+      "prices": [
+        11,
+        12,
+        14,
+        13,
+        16,
+        15,
+        13
+      ],
       "trend": "stable",
       "best_day": "Friday",
       "risk": "stable prices"
@@ -234,56 +473,120 @@
   "Cauliflower": {
     "Nashik": {
       "state": "Maharashtra",
-      "prices": [20, 22, 24, 23, 26, 25, 23],
+      "prices": [
+        20,
+        22,
+        24,
+        23,
+        26,
+        25,
+        23
+      ],
       "trend": "stable",
       "best_day": "Tuesday",
       "risk": "winter crop ending — prices may rise"
     },
     "Lucknow": {
       "state": "Uttar Pradesh",
-      "prices": [15, 16, 18, 17, 20, 19, 17],
+      "prices": [
+        15,
+        16,
+        18,
+        17,
+        20,
+        19,
+        17
+      ],
       "trend": "rising",
       "best_day": "Monday",
       "risk": "good hotel and restaurant demand"
     },
     "Pune": {
       "state": "Maharashtra",
-      "prices": [22, 24, 26, 25, 28, 27, 25],
+      "prices": [
+        22,
+        24,
+        26,
+        25,
+        28,
+        27,
+        25
+      ],
       "trend": "rising",
       "best_day": "Wednesday",
       "risk": "premium market, quality check important"
     },
     "Kanpur": {
       "state": "Uttar Pradesh",
-      "prices": [13, 14, 16, 15, 18, 17, 15],
+      "prices": [
+        13,
+        14,
+        16,
+        15,
+        18,
+        17,
+        15
+      ],
       "trend": "stable",
       "best_day": "Thursday",
       "risk": "steady demand"
     },
     "Nagpur": {
       "state": "Maharashtra",
-      "prices": [18, 20, 22, 21, 24, 23, 21],
-      "trend": "rising",
-      "best_day": "Friday",
-      "risk": "rising prices due to less supply"
+      "prices": [
+        7.25,
+        6.1,
+        23.1
+      ],
+      "min_price": 6.1,
+      "max_price": 23.1,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 3
     },
     "Agra": {
       "state": "Uttar Pradesh",
-      "prices": [12, 13, 15, 14, 17, 16, 14],
+      "prices": [
+        12,
+        13,
+        15,
+        14,
+        17,
+        16,
+        14
+      ],
       "trend": "stable",
       "best_day": "Wednesday",
       "risk": "average week"
     },
     "Solapur": {
       "state": "Maharashtra",
-      "prices": [17, 19, 21, 20, 23, 22, 20],
+      "prices": [
+        17,
+        19,
+        21,
+        20,
+        23,
+        22,
+        20
+      ],
       "trend": "rising",
       "best_day": "Monday",
       "risk": "quality grading essential"
     },
     "Allahabad": {
       "state": "Uttar Pradesh",
-      "prices": [14, 15, 17, 16, 19, 18, 16],
+      "prices": [
+        14,
+        15,
+        17,
+        16,
+        19,
+        18,
+        16
+      ],
       "trend": "stable",
       "best_day": "Tuesday",
       "risk": "moderate demand"
@@ -292,56 +595,118 @@
   "Cabbage": {
     "Nashik": {
       "state": "Maharashtra",
-      "prices": [10, 11, 12, 11, 14, 13, 12],
+      "prices": [
+        10,
+        11,
+        12,
+        11,
+        14,
+        13,
+        12
+      ],
       "trend": "stable",
       "best_day": "Monday",
       "risk": "high supply may keep prices flat"
     },
     "Lucknow": {
       "state": "Uttar Pradesh",
-      "prices": [8, 9, 10, 11, 13, 12, 10],
+      "prices": [
+        8,
+        9,
+        10,
+        11,
+        13,
+        12,
+        10
+      ],
       "trend": "rising",
       "best_day": "Tuesday",
       "risk": "demand from fast food outlets rising"
     },
     "Pune": {
       "state": "Maharashtra",
-      "prices": [11, 12, 13, 12, 15, 14, 13],
+      "prices": [
+        8.5
+      ],
+      "min_price": 8.5,
+      "max_price": 8.5,
       "trend": "stable",
-      "best_day": "Wednesday",
-      "risk": "competitive market"
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Kanpur": {
       "state": "Uttar Pradesh",
-      "prices": [7, 8, 9, 10, 12, 11, 9],
+      "prices": [
+        7,
+        8,
+        9,
+        10,
+        12,
+        11,
+        9
+      ],
       "trend": "rising",
       "best_day": "Thursday",
       "risk": "low margin crop, sell quickly"
     },
     "Nagpur": {
       "state": "Maharashtra",
-      "prices": [9, 10, 11, 10, 13, 12, 11],
+      "prices": [
+        5.25,
+        4.5,
+        12.9
+      ],
+      "min_price": 4.5,
+      "max_price": 12.9,
       "trend": "stable",
-      "best_day": "Friday",
-      "risk": "perishability risk — sell within 3 days"
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 3
     },
     "Agra": {
       "state": "Uttar Pradesh",
-      "prices": [7, 8, 9, 10, 12, 11, 9],
+      "prices": [
+        7,
+        8,
+        9,
+        10,
+        12,
+        11,
+        9
+      ],
       "trend": "rising",
       "best_day": "Saturday",
       "risk": "moderate volatility"
     },
     "Solapur": {
       "state": "Maharashtra",
-      "prices": [9, 10, 12, 11, 14, 13, 11],
+      "prices": [
+        9,
+        10,
+        12,
+        11,
+        14,
+        13,
+        11
+      ],
       "trend": "stable",
       "best_day": "Monday",
       "risk": "low risk"
     },
     "Allahabad": {
       "state": "Uttar Pradesh",
-      "prices": [8, 9, 10, 11, 13, 12, 10],
+      "prices": [
+        8,
+        9,
+        10,
+        11,
+        13,
+        12,
+        10
+      ],
       "trend": "stable",
       "best_day": "Wednesday",
       "risk": "stable demand"
@@ -350,56 +715,119 @@
   "Capsicum": {
     "Nashik": {
       "state": "Maharashtra",
-      "prices": [40, 44, 48, 45, 52, 50, 47],
+      "prices": [
+        40,
+        44,
+        48,
+        45,
+        52,
+        50,
+        47
+      ],
       "trend": "rising",
       "best_day": "Tuesday",
       "risk": "export quality buyers active"
     },
     "Lucknow": {
       "state": "Uttar Pradesh",
-      "prices": [30, 32, 35, 33, 38, 36, 34],
+      "prices": [
+        30,
+        32,
+        35,
+        33,
+        38,
+        36,
+        34
+      ],
       "trend": "stable",
       "best_day": "Wednesday",
       "risk": "urban retail demand steady"
     },
     "Pune": {
       "state": "Maharashtra",
-      "prices": [42, 46, 50, 48, 54, 52, 49],
+      "prices": [
+        42,
+        46,
+        50,
+        48,
+        54,
+        52,
+        49
+      ],
       "trend": "rising",
       "best_day": "Monday",
       "risk": "premium pricing for colored capsicum"
     },
     "Kanpur": {
       "state": "Uttar Pradesh",
-      "prices": [28, 30, 33, 31, 36, 34, 32],
+      "prices": [
+        28,
+        30,
+        33,
+        31,
+        36,
+        34,
+        32
+      ],
       "trend": "stable",
       "best_day": "Thursday",
       "risk": "limited cold chain, sell fresh"
     },
     "Nagpur": {
       "state": "Maharashtra",
-      "prices": [38, 42, 45, 43, 49, 47, 44],
-      "trend": "rising",
-      "best_day": "Friday",
-      "risk": "processing units buying bulk"
+      "prices": [
+        33.3,
+        26.25
+      ],
+      "min_price": 26.25,
+      "max_price": 33.3,
+      "trend": "stable",
+      "best_day": "Monday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 2
     },
     "Agra": {
       "state": "Uttar Pradesh",
-      "prices": [26, 28, 31, 29, 34, 32, 30],
+      "prices": [
+        26,
+        28,
+        31,
+        29,
+        34,
+        32,
+        30
+      ],
       "trend": "stable",
       "best_day": "Monday",
       "risk": "moderate demand"
     },
     "Solapur": {
       "state": "Maharashtra",
-      "prices": [36, 40, 43, 41, 47, 45, 42],
+      "prices": [
+        36,
+        40,
+        43,
+        41,
+        47,
+        45,
+        42
+      ],
       "trend": "rising",
       "best_day": "Saturday",
       "risk": "transport delay risk"
     },
     "Allahabad": {
       "state": "Uttar Pradesh",
-      "prices": [29, 31, 34, 32, 37, 35, 33],
+      "prices": [
+        29,
+        31,
+        34,
+        32,
+        37,
+        35,
+        33
+      ],
       "trend": "stable",
       "best_day": "Friday",
       "risk": "limited demand"
@@ -408,56 +836,120 @@
   "Peas": {
     "Nashik": {
       "state": "Maharashtra",
-      "prices": [35, 38, 42, 40, 46, 44, 41],
+      "prices": [
+        35,
+        38,
+        42,
+        40,
+        46,
+        44,
+        41
+      ],
       "trend": "rising",
       "best_day": "Monday",
       "risk": "seasonal crop — window closing soon"
     },
     "Lucknow": {
       "state": "Uttar Pradesh",
-      "prices": [28, 30, 33, 31, 36, 34, 32],
+      "prices": [
+        28,
+        30,
+        33,
+        31,
+        36,
+        34,
+        32
+      ],
       "trend": "stable",
       "best_day": "Tuesday",
       "risk": "good demand from hotels"
     },
     "Pune": {
       "state": "Maharashtra",
-      "prices": [38, 41, 45, 43, 49, 47, 44],
+      "prices": [
+        38,
+        41,
+        45,
+        43,
+        49,
+        47,
+        44
+      ],
       "trend": "rising",
       "best_day": "Wednesday",
       "risk": "premium fresh peas in demand"
     },
     "Kanpur": {
       "state": "Uttar Pradesh",
-      "prices": [25, 27, 30, 28, 33, 31, 29],
+      "prices": [
+        25,
+        27,
+        30,
+        28,
+        33,
+        31,
+        29
+      ],
       "trend": "stable",
       "best_day": "Thursday",
       "risk": "frozen peas competition"
     },
     "Nagpur": {
       "state": "Maharashtra",
-      "prices": [32, 35, 38, 36, 42, 40, 37],
+      "prices": [
+        32,
+        35,
+        38,
+        36,
+        42,
+        40,
+        37
+      ],
       "trend": "rising",
       "best_day": "Friday",
       "risk": "sell early in week for best price"
     },
     "Agra": {
       "state": "Uttar Pradesh",
-      "prices": [24, 26, 29, 27, 32, 30, 28],
+      "prices": [
+        24,
+        26,
+        29,
+        27,
+        32,
+        30,
+        28
+      ],
       "trend": "stable",
       "best_day": "Wednesday",
       "risk": "average week"
     },
     "Solapur": {
       "state": "Maharashtra",
-      "prices": [30, 33, 36, 34, 40, 38, 35],
+      "prices": [
+        30,
+        33,
+        36,
+        34,
+        40,
+        38,
+        35
+      ],
       "trend": "rising",
       "best_day": "Monday",
       "risk": "demand from Pune processors"
     },
     "Allahabad": {
       "state": "Uttar Pradesh",
-      "prices": [26, 28, 31, 29, 34, 32, 30],
+      "prices": [
+        26,
+        28,
+        31,
+        29,
+        34,
+        32,
+        30
+      ],
       "trend": "stable",
       "best_day": "Tuesday",
       "risk": "moderate demand"
@@ -466,56 +958,116 @@
   "Garlic": {
     "Nashik": {
       "state": "Maharashtra",
-      "prices": [60, 65, 70, 68, 75, 72, 69],
+      "prices": [
+        60,
+        65,
+        70,
+        68,
+        75,
+        72,
+        69
+      ],
       "trend": "rising",
       "best_day": "Tuesday",
       "risk": "export demand from Gulf countries"
     },
     "Lucknow": {
       "state": "Uttar Pradesh",
-      "prices": [50, 54, 58, 56, 63, 61, 58],
+      "prices": [
+        50,
+        54,
+        58,
+        56,
+        63,
+        61,
+        58
+      ],
       "trend": "rising",
       "best_day": "Monday",
       "risk": "good urban market demand"
     },
     "Pune": {
       "state": "Maharashtra",
-      "prices": [62, 67, 72, 70, 78, 75, 72],
-      "trend": "rising",
-      "best_day": "Wednesday",
-      "risk": "processing industry buying heavily"
+      "prices": [
+        70.0
+      ],
+      "min_price": 70.0,
+      "max_price": 70.0,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Kanpur": {
       "state": "Uttar Pradesh",
-      "prices": [48, 52, 56, 54, 61, 59, 56],
+      "prices": [
+        48,
+        52,
+        56,
+        54,
+        61,
+        59,
+        56
+      ],
       "trend": "stable",
       "best_day": "Thursday",
       "risk": "storage garlic competing with fresh"
     },
     "Nagpur": {
       "state": "Maharashtra",
-      "prices": [58, 63, 68, 66, 73, 70, 67],
-      "trend": "rising",
-      "best_day": "Friday",
-      "risk": "high demand, good week to sell"
+      "prices": [
+        115.5
+      ],
+      "min_price": 115.5,
+      "max_price": 115.5,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Agra": {
       "state": "Uttar Pradesh",
-      "prices": [46, 50, 54, 52, 59, 57, 54],
+      "prices": [
+        46,
+        50,
+        54,
+        52,
+        59,
+        57,
+        54
+      ],
       "trend": "stable",
       "best_day": "Monday",
       "risk": "stable but lower prices"
     },
     "Solapur": {
       "state": "Maharashtra",
-      "prices": [56, 61, 66, 64, 71, 68, 65],
+      "prices": [
+        56,
+        61,
+        66,
+        64,
+        71,
+        68,
+        65
+      ],
       "trend": "rising",
       "best_day": "Saturday",
       "risk": "transport cost consideration"
     },
     "Allahabad": {
       "state": "Uttar Pradesh",
-      "prices": [49, 53, 57, 55, 62, 60, 57],
+      "prices": [
+        49,
+        53,
+        57,
+        55,
+        62,
+        60,
+        57
+      ],
       "trend": "stable",
       "best_day": "Wednesday",
       "risk": "moderate demand"
@@ -524,56 +1076,114 @@
   "Ginger": {
     "Nashik": {
       "state": "Maharashtra",
-      "prices": [55, 60, 65, 63, 70, 68, 64],
+      "prices": [
+        55,
+        60,
+        65,
+        63,
+        70,
+        68,
+        64
+      ],
       "trend": "rising",
       "best_day": "Monday",
       "risk": "medicine and spice industry demand high"
     },
     "Lucknow": {
       "state": "Uttar Pradesh",
-      "prices": [45, 49, 53, 51, 58, 56, 52],
-      "trend": "rising",
+      "prices": [
+        35.0
+      ],
+      "min_price": 35.0,
+      "max_price": 35.0,
+      "trend": "stable",
       "best_day": "Tuesday",
-      "risk": "good wholesale demand"
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Pune": {
       "state": "Maharashtra",
-      "prices": [58, 63, 68, 66, 73, 71, 67],
-      "trend": "rising",
-      "best_day": "Wednesday",
-      "risk": "premium for sorted, clean ginger"
+      "prices": [
+        32.5
+      ],
+      "min_price": 32.5,
+      "max_price": 32.5,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Kanpur": {
       "state": "Uttar Pradesh",
-      "prices": [42, 46, 50, 48, 55, 53, 49],
+      "prices": [
+        42,
+        46,
+        50,
+        48,
+        55,
+        53,
+        49
+      ],
       "trend": "stable",
       "best_day": "Thursday",
       "risk": "dry ginger competing with fresh"
     },
     "Nagpur": {
       "state": "Maharashtra",
-      "prices": [52, 57, 62, 60, 67, 65, 61],
-      "trend": "rising",
-      "best_day": "Friday",
-      "risk": "export grade fetches premium"
+      "prices": [
+        55.4
+      ],
+      "min_price": 55.4,
+      "max_price": 55.4,
+      "trend": "stable",
+      "best_day": "Tuesday",
+      "risk": "Stable demand, low risk this week",
+      "last_updated": "2026-04-28",
+      "records_count": 1
     },
     "Agra": {
       "state": "Uttar Pradesh",
-      "prices": [40, 44, 48, 46, 53, 51, 47],
+      "prices": [
+        40,
+        44,
+        48,
+        46,
+        53,
+        51,
+        47
+      ],
       "trend": "stable",
       "best_day": "Wednesday",
       "risk": "moderate demand"
     },
     "Solapur": {
       "state": "Maharashtra",
-      "prices": [50, 55, 60, 58, 65, 63, 59],
+      "prices": [
+        50,
+        55,
+        60,
+        58,
+        65,
+        63,
+        59
+      ],
       "trend": "rising",
       "best_day": "Saturday",
       "risk": "good connectivity to Pune and Mumbai"
     },
     "Allahabad": {
       "state": "Uttar Pradesh",
-      "prices": [43, 47, 51, 49, 56, 54, 50],
+      "prices": [
+        43,
+        47,
+        51,
+        49,
+        56,
+        54,
+        50
+      ],
       "trend": "stable",
       "best_day": "Friday",
       "risk": "moderate market activity"

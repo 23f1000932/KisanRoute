@@ -100,3 +100,20 @@ def get_mandis():
         return jsonify(top_mandis), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
+@mandis_bp.route("/cache-status", methods=["GET"])
+def get_cache_status():
+    """Return cache_meta.json to allow frontends to show data freshness."""
+    cache_meta_path = os.path.join(os.path.dirname(__file__), "..", "data", "cache_meta.json")
+    try:
+        with open(cache_meta_path, "r") as f:
+            return jsonify(json.load(f)), 200
+    except FileNotFoundError:
+        return jsonify({
+            "status": "not_initialized",
+            "last_updated": None,
+            "message": "Data fetch has not run yet. Try again in 30 seconds."
+        }), 200
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500

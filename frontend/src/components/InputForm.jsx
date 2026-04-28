@@ -10,6 +10,20 @@ const DISTRICTS = [
   "Agra", "Jalgaon", "Varanasi", "Solapur", "Allahabad"
 ]
 
+// Auto-derive state from district so user doesn't need to fill it separately
+const DISTRICT_STATE = {
+  "Nashik":    "Maharashtra",
+  "Lucknow":   "Uttar Pradesh",
+  "Pune":      "Maharashtra",
+  "Kanpur":    "Uttar Pradesh",
+  "Nagpur":    "Maharashtra",
+  "Agra":      "Uttar Pradesh",
+  "Jalgaon":   "Maharashtra",
+  "Varanasi":  "Uttar Pradesh",
+  "Solapur":   "Maharashtra",
+  "Allahabad": "Uttar Pradesh",
+}
+
 export default function InputForm({ onSubmit }) {
   const [formData, setFormData] = useState({
     crop: '',
@@ -52,7 +66,12 @@ export default function InputForm({ onSubmit }) {
       setErrors(newErrors)
       return
     }
-    onSubmit(formData)
+    // Inject state derived from district before sending to API
+    const payload = {
+      ...formData,
+      state: DISTRICT_STATE[formData.district] || "India"
+    }
+    onSubmit(payload)
   }
 
   return (

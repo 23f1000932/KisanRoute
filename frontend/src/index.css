@@ -71,7 +71,7 @@
 
   /* ── Main card ── */
   .kr-card {
-    @apply bg-white rounded-2xl shadow-card border border-brand-border overflow-hidden;
+    @apply bg-white rounded-2xl shadow-card border border-brand-border;
   }
 
   /* ── Advisory card left accent border ── */

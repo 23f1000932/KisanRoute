@@ -1,0 +1,20 @@
+{
+  "last_updated": "2026-04-28T11:49:02.086621",
+  "status": "partial",
+  "crops_updated": [
+    "Tomato",
+    "Onion",
+    "Cauliflower",
+    "Cabbage",
+    "Garlic",
+    "Ginger"
+  ],
+  "crops_stale": [
+    "Potato",
+    "Brinjal",
+    "Capsicum",
+    "Peas"
+  ],
+  "total_records": 26,
+  "source": "data.gov.in"
+}

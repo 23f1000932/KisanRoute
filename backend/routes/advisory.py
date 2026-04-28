@@ -1,3 +1,6 @@
+import json
+import os
+from datetime import datetime, timezone
 from flask import Blueprint, request, jsonify
 from routes.mandis import get_top_mandis
 from services.gemini_service import generate_advisory
@@ -91,6 +94,32 @@ def post_advisory():
             s = ",".join(groups) + "," + last3
         return f"₹{s}"
 
+    # ── Load cache metadata for data freshness indicator ──────────────────────
+    cache_meta_path = os.path.join(
+        os.path.dirname(__file__), "..", "data", "cache_meta.json"
+    )
+    data_freshness = {
+        "last_updated": None,
+        "source": "data.gov.in — Government of India",
+        "status": "stale",
+    }
+    try:
+        with open(cache_meta_path, "r") as f:
+            meta = json.load(f)
+        last_updated_str = meta.get("last_updated")
+        if last_updated_str:
+            last_updated_dt = datetime.fromisoformat(last_updated_str)
+            if last_updated_dt.tzinfo is None:
+                last_updated_dt = last_updated_dt.replace(tzinfo=timezone.utc)
+            age_hours = (datetime.now(timezone.utc) - last_updated_dt).total_seconds() / 3600
+            data_freshness = {
+                "last_updated": last_updated_str,
+                "source": "data.gov.in — Government of India",
+                "status": "live" if age_hours <= 48 else "stale",
+            }
+    except Exception:
+        pass  # keep default stale — never crash advisory endpoint
+
     return jsonify({
         "advisory": advisory_text,
         "top_mandis": top_mandis,
@@ -99,4 +128,5 @@ def post_advisory():
         "best_day": best_mandi["best_day"],
         "price_range": f"₹{low_price}–{high_price}/kg",
         "estimated_earnings": f"{fmt_inr(estimated_low)}–{fmt_inr(estimated_high)}",
+        "data_freshness": data_freshness,
     }), 200

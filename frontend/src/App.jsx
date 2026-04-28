@@ -80,6 +80,7 @@ function App() {
               priceRange={result.price_range}
               estimatedEarnings={result.estimated_earnings}
               crop={result.crop}
+              dataFreshness={result.data_freshness}
             />
             
             <VoiceButton text={result.advisory} />
