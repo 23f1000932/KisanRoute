@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FFFDF5;
+    color: #1A1A1A;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Baloo 2', cursive;
+  }
+}
+
+@layer components {
+  /* ── Gradient background strip ── */
+  .hero-gradient {
+    background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 45%, #388E3C 100%);
+  }
+
+  /* ── Green pill badge ── */
+  .badge-green {
+    @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-green-100 text-brand-green border border-green-200;
+  }
+
+  /* ── Amber pill badge ── */
+  .badge-amber {
+    @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-amber-100 text-amber-700 border border-amber-200;
+  }
+
+  /* ── Form label ── */
+  .form-label {
+    @apply block text-sm font-semibold text-brand-text mb-1.5 font-body;
+  }
+
+  /* ── Form select / input ── */
+  .form-control {
+    @apply w-full px-4 py-3 rounded-xl border-2 border-brand-border bg-white text-brand-text
+           text-sm font-body transition-all duration-200
+           focus:outline-none focus:border-brand-green focus:ring-2 focus:ring-green-100
+           placeholder-gray-400;
+  }
+
+  /* ── Primary CTA button ── */
+  .btn-primary {
+    @apply w-full py-4 rounded-xl font-heading font-bold text-lg text-white
+           bg-brand-green hover:bg-brand-green-dark active:scale-[0.98]
+           transition-all duration-200 shadow-md hover:shadow-lg
+           disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+
+  /* ── Amber button ── */
+  .btn-amber {
+    @apply px-5 py-3 rounded-xl font-heading font-bold text-sm text-white
+           bg-brand-amber hover:bg-brand-amber-light active:scale-[0.98]
+           transition-all duration-200 shadow-md;
+  }
+
+  /* ── Main card ── */
+  .kr-card {
+    @apply bg-white rounded-2xl shadow-card border border-brand-border overflow-hidden;
+  }
+
+  /* ── Advisory card left accent border ── */
+  .advisory-accent {
+    border-left: 4px solid #2E7D32;
+  }
+
+  /* ── Metric chip ── */
+  .metric-chip {
+    @apply flex flex-col items-center justify-center px-4 py-3 rounded-xl
+           bg-gray-50 border border-gray-100 text-center gap-0.5 flex-1;
+  }
+
+  /* ── Mandi card ── */
+  .mandi-card {
+    @apply kr-card flex-shrink-0 w-56 p-4 flex flex-col gap-2
+           hover:shadow-card-hover transition-shadow duration-200;
+  }
+
+  /* ── Spinner ── */
+  .spinner {
+    @apply w-12 h-12 rounded-full border-4 border-green-200 border-t-brand-green animate-spin;
+  }
+
+  /* ── Trend badge colours ── */
+  .trend-rising  { @apply text-green-600 font-semibold; }
+  .trend-stable  { @apply text-amber-600 font-semibold; }
+  .trend-falling { @apply text-red-500 font-semibold; }
+
+  /* ── Radio option ── */
+  .radio-option {
+    @apply flex items-center gap-3 px-4 py-3 rounded-xl border-2 cursor-pointer
+           transition-all duration-200 border-brand-border bg-white hover:border-brand-green;
+  }
+  .radio-option.selected {
+    @apply border-brand-green bg-green-50;
+  }
+}
+
+/* ── Smooth horizontal scroll for MandiList ── */
+.mandi-scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.mandi-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+.mandi-scroll::-webkit-scrollbar-thumb {
+  background: #c8e6c9;
+  border-radius: 4px;
+}
+.mandi-scroll > * {
+  scroll-snap-align: start;
+}
+
+/* ── Fade-in animation ── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.45s ease both;
+}
+
+/* ── Pulse glow for loading ── */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(46,125,50,0.15); }
+  50%       { box-shadow: 0 0 0 12px rgba(46,125,50,0); }
+}
+.pulse-glow {
+  animation: pulseGlow 1.8s ease-in-out infinite;
+}
